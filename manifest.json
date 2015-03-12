@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+
+	"name": "AED2INR",
+	"description": "Latest & Greatest conversion rate from AED to INR",
+	"version": "1.0",
+
+	"permissions": [
+          "storage",
+          "http://www.xe.com/"          
+          //"http://www.google.com/",
+          //"http://www.xe.com/currencyconverter/convert/?Amount=1&From=AED&To=INR"
+    ],
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	}
+}
